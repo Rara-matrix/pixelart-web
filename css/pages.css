@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*PRODUCTS PAGE*/
+
+.tittle-p h1 {
+    padding-top: 5rem;
+}
+
+.container-products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    max-width: 1200px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.product {
+    border: 1px solid rgb(163, 163, 163);
+    padding: 10px;
+}
+.product h3 {
+    color: #f1801f;
+}
+
+.product span {
+    color: #444;
+    font-size: 12px;
+}
+
+.product img {
+    width: 100%;
+}
+
+/*CUSTOMERS PAGE*/
+
+.container-customers {
+    background-image: linear-gradient(120deg, #4444446a 0%, #4444446a 100%), url(../img/customers/bogota.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.container-customers h1 {
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.logos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 1200px;
+    margin: auto;
+}
+
+.logos img {
+    max-width: 200px;
+    margin: auto;
+}
+
+/*ABOUT US PAGE*/
+
+.about-container{
+    background-image: url(../img/andrew-pons-6-RhsUzKO6g-unsplash.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+}
+
+.about-container img {
+    margin: auto;
+    padding-top: 5em;
+}
+
+.content {
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.content p {
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.content h2 {
+    color: #f1801f;
+}
