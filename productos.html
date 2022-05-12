@@ -13,9 +13,9 @@
 </head>
 <body>
     <header>
-        <div class="menutodo">
-            <a href="#"><img src="img/Logo_pixelart.png" alt="logo pixelart"></a>
-            <nav class="menu">
+        <div class="menu-container">
+            <a href="index.html"><img src="img/Logo_pixelart.png" alt="logo pixelart"></a>
+            <nav class="menu-contact">
                 <ul>
                     <li><a href="mailto:info@pixelartimpresion.com" class="material-icons">mail_outline</a></li>
                     <li><a href="https://wa.me/573135780844" class="fa fa-whatsapp" style="font-size:18px"></a></li>
@@ -24,7 +24,7 @@
                     <li><a href="https://www.instagram.com/printpixelart/" class="fa fa-instagram" style="font-size:18px" target="blank"></a></li>
                 </ul>
             </nav>
-            <nav class="menu2">
+            <nav class="menu-pages">
                 <ul>
                     <li><a href="index.html">INICIO</a></li>
                     <li><a href="productos.html" class="active">PRODUCTOS</a></li>
@@ -32,6 +32,21 @@
                     <li><a href="quienes-somos.html">QUIÉNES SOMOS</a></li>
                 </ul>
             </nav>
+        </div>
+        <div class="menu-mobile-container">
+            <a href="index.html"><img src="img/Logo_pixelart.png" alt="logo pixelart"></a>
+            <div class="grayfringe"></div>
+            <nav class="menu-mobile-pages" id="display-menu">
+                <ul>
+                    <li><a href="index.html" class="active">INICIO</a></li>
+                    <li><a href="productos.html">PRODUCTOS</a></li>
+                    <li><a href="clientes.html">CASOS DE ÉXITO</a></li>
+                    <li><a href="quienes-somos.html">QUIÉNES SOMOS</a></li>
+                </ul>
+            </nav>
+            <div id="icon-menu" class="menu-mobile">
+                <i class="material-icons">menu</i>
+            </div>
         </div>
     </header>
     <div class="tittle-p">
@@ -127,5 +142,6 @@
             <p class="note">*Fin de semana feriado, no abrimos los sábados</p>
         </div>
     </div>
+    <script src="js/script.js"></script>
 </body>
 </html>

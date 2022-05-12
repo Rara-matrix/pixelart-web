@@ -245,5 +245,6 @@ input[type=submit] {
     #icon-menu {
         display: block;
         top: 25px;
+        z-index: 7;
     }
 }
