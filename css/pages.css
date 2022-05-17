@@ -73,12 +73,34 @@ ul.slider li:target {
     margin-left: 20px;
 }
 
+@media (max-width: 800px) {
+
+    .txtbox-slider {
+        width: 100%;
+        padding: 20px;
+        left: 0%;
+        top: 70%;
+    }
+    
+    .txtbox-slider a {
+        text-align: center;
+    }
+
+    .txtbox-slider h1 {
+        font-size: x-large;
+    }
+
+    .select-slider {
+        width: 100%;
+        margin: 20px 0;
+    }
+}
+
 /*-----GALLERY-CONTAINER------*/
 
 .row {
     display: flex;
     padding: 5px;
-    flex-wrap: wrap;
 }
 
 .column {
@@ -99,8 +121,15 @@ h1 {
 }
 
 @media (max-width: 800px) {
+
     .column {
     flex: 100%;
+    }
+
+    .row {
+        display: flex;
+        padding: 5px;
+        flex-wrap: wrap;
     }
 }
 
@@ -134,6 +163,17 @@ h1 {
     margin-top: 30px;
 }
 
+@media (max-width: 800px) {
+
+    .services img {
+        max-height: 80px;
+    }
+
+    .txt-services {
+        margin-top: 10px;
+    }
+}
+
 /*-----DESCRIPTION-CONTAINER-----*/
 .description-container {
     display: flex;
@@ -152,6 +192,18 @@ h1 {
 
 .icon-description-group {
     display: flex;
+}
+
+@media (max-width: 800px) {
+
+    .description-container {
+        display: block;
+        padding: 30px;
+    }
+
+    .icon-description-group {
+        margin-top: 50px;
+    }
 }
 
 /*PRODUCTS PAGE*/
@@ -186,6 +238,11 @@ h1 {
     width: 100%;
 }
 
+@media (max-width: 800px) {
+    .container-products {
+        grid-template-columns: repeat(2, 1fr);
+    }   
+}
 /*CUSTOMERS PAGE*/
 
 .container-customers {
@@ -211,6 +268,19 @@ h1 {
 .logos img {
     max-width: 200px;
     margin: auto;
+}
+
+@media (max-width: 800px) {
+    .logos {
+        grid-template-columns: repeat(1, 1fr);
+        width: 200px;
+    }
+
+    .container-customers {
+        width: 100%;
+        height: 1300px;
+        background-size: fill;
+    }
 }
 
 /*ABOUT US PAGE*/
@@ -243,4 +313,16 @@ h1 {
 
 .content h2 {
     color: #f1801f;
+}
+
+@media (max-width: 800px) {
+    .about-container{
+        width: 400px;
+        height: 300px;
+        background-size: fill;
+    }
+    
+    .about-container img {
+        max-width: 400px;
+    }
 }
